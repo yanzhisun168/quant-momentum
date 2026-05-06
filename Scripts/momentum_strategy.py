@@ -296,6 +296,7 @@ print(param_df.sort_values(by="夏普比率", ascending=False))
 #第十二步：保存结果
 
 import os
+os.chdir(r"E:\pythonproject\quant-momentum-backtest")
 
 os.makedirs("results/figures", exist_ok=True)
 os.makedirs("results/tables", exist_ok=True)
